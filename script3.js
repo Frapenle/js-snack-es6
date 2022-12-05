@@ -51,12 +51,19 @@ const zucchina = [{
    varieta: "milanese",
    peso: 150,
    lunghezza: 30,
-}]
+},
+{
+   varieta: "milanese",
+   peso: 150,
+   lunghezza: 30,
+},
+]
 
 let sum = 0;
 for ( let i = 0; i < zucchina.length; i++) {
-   const currentZucchina = zucchina[i];
-   sum += currentZucchina.peso;
+   sum += zucchina[i].peso
 }
-
 console.log(sum)
+
+let media = sum / zucchina.length;
+console.log (media);
