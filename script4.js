@@ -48,8 +48,8 @@ const animals = [{
 },
 ];
 
-const mammiferi = animals.filter((mammiferi) => {
-    if (mammiferi.class = mammiferi) {
+const mammiferi = animals.filter((mammifero) => {
+    if (mammifero.class === "mammiferi") {
         return true;
     }
     return false;
